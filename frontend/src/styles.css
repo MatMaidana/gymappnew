@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #1f2937;
+  background: #f5f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tabs button,
+.actions button,
+.actions a {
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.list li {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions button {
+  background: #059669;
+  color: #fff;
+}
+
+.actions a {
+  background: #0ea5e9;
+  color: #fff;
+}
+
+.error {
+  color: #dc2626;
+}
